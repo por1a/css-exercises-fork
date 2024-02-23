@@ -1,0 +1,20 @@
+.odd-num {
+    background-color: #e83186;
+    font-family: Verdana, "DejaVu Sans", "Sans-serif";
+
+}
+
+.cooler {
+    font-size: 24px;
+}
+
+#even-two {
+    color: #2836d1;
+    font-size: 36px;
+}
+
+#even-four {
+    background-color: #30e357;
+    font-size: 24px;
+    font-weight: bold;
+}
