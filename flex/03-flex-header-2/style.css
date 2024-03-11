@@ -5,7 +5,8 @@ you'll learn about it later. */
 body {
   margin: 0;
   background: #eee;
-  font-family: Besley, serif;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24;
 }
 
 .header {
@@ -45,4 +46,30 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+/*  */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+.left-links, .right-links {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+}
+
+.right-links {
+  gap: 16px  ;
+}
+
+.logo {
+  margin: 0;
 }
