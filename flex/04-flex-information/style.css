@@ -1,7 +1,7 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  background-color: #8FDC97;
 }
-
 img {
   width: 100px;
   height: 100px;
@@ -22,5 +22,35 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #eee;
+  background: #426B69;
+  color: #AEFFD8
+}
+
+a {
+  color: #FAF3DD;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8FDC97;
+}
+
+.title {
+  box-sizing: border-box;
+  margin-bottom: 32px;
+  text-align: center;
+}
+.items {
+  display: flex;
+  gap: 52px;
+  text-align: center;
+}
+
+.item {
+  max-width: 200px;
+}
+
+.text {
+  display: flex;
+  flex-wrap: wrap;
 }
